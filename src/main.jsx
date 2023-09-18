@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-// import App from './App.jsx'
 import './index.css'
 import {
   createBrowserRouter,
@@ -9,6 +8,7 @@ import {
 import Home from './components/Home/Home';
 import About from './Components/About/About';
 import Contact from './Components/Contact/Contact';
+import Users from './Components/Users/Users';
 
 
 const router = createBrowserRouter([
@@ -20,10 +20,15 @@ const router = createBrowserRouter([
         path: '/about',
         element: <About></About>
       },
+
+      {
+        path: '/users',
+        element: <Users></Users>
+      },
       {
         path: '/contact',
         element: <Contact></Contact>
-      }
+      },
     ]
   }
 ]);
