@@ -2,9 +2,9 @@
 
 const About = () => {
     return (
-        <div>
-            <h2>About Us</h2>
-            <p>Everything you want to know</p>
+        <div className="container mx-auto">
+            <h2 className="text-center">About Us</h2>
+            <p className="text-center">Everything you want to know</p>
         </div>
     );
 };

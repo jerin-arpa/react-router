@@ -2,9 +2,9 @@
 
 const Contact = () => {
     return (
-        <div>
-            <h2>Contact Us</h2>
-            <p>We are one call away</p>
+        <div className="container mx-auto">
+            <h2 className="text-center">Contact Us</h2>
+            <p className="text-center">We are one call away</p>
         </div>
     );
 };
