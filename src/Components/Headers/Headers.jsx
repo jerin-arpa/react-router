@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Headers = () => {
     return (
         <div>
-            <nav className="flex justify-between container mx-auto p-5 mb-7  bg-gray-100 rounded-xl">
+            <nav className="flex flex-wrap justify-between container mx-auto p-5 mb-7  bg-gray-100 rounded-xl">
                 <span className="text-xl font-bold">My Website</span>
                 <div className="flex gap-5 font-bold">
                     <Link to="/">Home</Link>
