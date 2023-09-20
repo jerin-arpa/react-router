@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
+import './Header.css'
 
 
 const Headers = () => {
@@ -7,11 +8,11 @@ const Headers = () => {
             <nav className="flex flex-wrap justify-between container mx-auto p-5 mb-7  bg-gray-100 rounded-xl">
                 <span className="text-xl font-bold">My Website</span>
                 <div className="flex gap-5 font-bold">
-                    <Link to="/">Home</Link>
-                    <Link to="/users">Users</Link>
-                    <Link to="/about">About</Link>
-                    <Link to="/posts">Posts</Link>
-                    <Link to="/contact">Contact Us</Link>
+                    <NavLink to="/">Home</NavLink>
+                    <NavLink to="/users">Users</NavLink>
+                    <NavLink to="/about">About</NavLink>
+                    <NavLink to="/posts">Posts</NavLink>
+                    <NavLink to="/contact">Contact Us</NavLink>
                 </div>
             </nav>
         </div>
